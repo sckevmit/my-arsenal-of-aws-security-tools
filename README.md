@@ -19,8 +19,13 @@
 * **cs-suite**: [https://github.com/SecurityFTW/cs-suite](https://github.com/SecurityFTW/cs-suite) - Integrates tools like Scout2 and Prowler among others 
 * **aws-key-disabler**: [https://github.com/te-papa/aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - A small lambda script that will disable access keys older than a given amount of days
 * **Antiope**: [https://github.com/turnerlabs/antiope/](https://github.com/turnerlabs/antiope/) - AWS Inventory and Compliance Framework
-* **FunctionShield**: [https://www.puresec.io/function-shield] A free AWS Lambda security library for developers, providing runtime protection such as: outbound network blocking, disable shell processes, /tmp/ disk I/O operations and prevents leakage of the handler's source code.
-* **Cloud Reports** [https://github.com/tensult/cloud-reports] Scans your AWS cloud resources and generates reports, includes security best practices.
+* **FunctionShield**: [https://www.puresec.io/function-shield](https://www.puresec.io/function-shield) A free AWS Lambda security library for developers, providing runtime protection such as: outbound network blocking, disable shell processes, /tmp/ disk I/O operations and prevents leakage of the handler's source code.
+* **Cloud Reports**: [https://github.com/tensult/cloud-reports](https://github.com/tensult/cloud-reports) Scans your AWS cloud resources and generates reports, includes security best practices.
+* **Terraform AWS Secure Baseline**: [https://github.com/nozaq/terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline) Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations. 
+* **Cartography**: [https://github.com/lyft/cartography](https://github.com/lyft/cartography) - Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database. 
+* **TrailScraper**: [https://github.com/flosell/trailscraper](https://github.com/flosell/trailscraper) - A command-line tool to get valuable information out of AWS CloudTrail
+* **LambdaGuard**: [https://github.com/Skyscanner/LambdaGuard](https://github.com/Skyscanner/LambdaGuard) - An AWS Lambda auditing tool designed to create asset visibility and provide actionable results.
+* **Komiser**: [https://github.com/mlabouardy/komiser](https://github.com/mlabouardy/komiser) - Cloud Environment Inspector, nalyze and manage cloud cost, usage, security, and governance in one place.
  
 **Offensive:**
 
@@ -39,6 +44,7 @@
 * **MozDef: The Mozilla Defense Platform** [https://github.com/mozilla/MozDef](https://github.com/mozilla/MozDef) - The Mozilla Defense Platform (MozDef) seeks to automate the security incident handling process and facilitate the real-time activities of incident handlers.
 * **Lambdashell**: [http://www.lambdashell.com/](http://www.lambdashell.com/) - This is a simple AWS lambda function that does a straight exec. Essentially giving you a shell directly in my AWS infrastructure to just run your commands.
 * **Lambda-Proxy**: [https://github.com/puresec/lambda-proxy/] - A bridge between SQLMap and AWS Lambda, which lets you use SQLMap to natively test AWS Lambda functions for SQL Injection vulnerabilities.
+* **CloudCopy**: [https://github.com/Static-Flow/CloudCopy](https://github.com/Static-Flow/CloudCopy) - Cloud version of the Shadow Copy attack against domain controllers running in AWS using only the EC2:CreateSnapshot permission
 
 **Continuous Security Auditing:**
 
@@ -52,6 +58,7 @@
 * **Hammer**: [https://github.com/dowjones/hammer](https://github.com/dowjones/hammer)
 * **Streamalert**: [https://github.com/airbnb/streamalert](https://github.com/airbnb/streamalert)
 * **Billing Alerts CFN templates**: [https://github.com/btkrausen/AWS/tree/master/CloudFormation/Billing%20Alerts](https://github.com/btkrausen/AWS/tree/master/CloudFormation/Billing%20Alerts)
+* **Watchmen**: [https://github.com/iagcl/watchmen](https://github.com/iagcl/watchmen) - AWS account compliance using centrally managed Config Rules
 
 **DFIR:**
 
@@ -74,9 +81,12 @@
 * **CFripper**: [https://github.com/Skyscanner/cfripper/](https://github.com/Skyscanner/cfripper/) - Lambda function to "rip apart" a CloudFormation template and check it for security compliance.
 * **Assume**: [https://github.com/SanderKnape/assume](https://github.com/SanderKnape/assume) - A simple CLI utility that makes it easier to switch between different AWS roles
 * **Terrascan**: [https://github.com/cesar-rodriguez/terrascan](https://github.com/cesar-rodriguez/terrascan) - A collection of security and best practice tests for static code analysis of terraform templates using terraform_validate
+* **tfsec**: [https://github.com/liamg/tfsec](https://github.com/liamg/tfsec) - Provides static analysis of your terraform templates to spot potential security issues
 * **pytest-services**: [https://github.com/mozilla-services/pytest-services](https://github.com/mozilla-services/pytest-services) - Unit testing framework for test driven security of AWS configurations and more
 * **IAM Least-Privileged Role Generator**: [https://github.com/puresec/serverless-puresec-cli](https://github.com/puresec/serverless-puresec-cli) - A Serverless framework plugin that statically analyzes AWS Lambda function code and automagically generates least-privileged IAM roles.
 * **AWS Vault**: [https://github.com/99designs/aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments 
+* **AWS Service Control Policies**: [https://github.com/jchrisfarris/aws-service-control-policies](https://github.com/jchrisfarris/aws-service-control-policies) - Collection of semi-useful Service Control Policies and scripts to manage them 
+* **Half-Life**: [https://github.com/Skyscanner/halflife](https://github.com/Skyscanner/halflife) - AWS Lambda auditing tool that provides a meaningful overview in terms of statistical analysis, AWS service dependencies and configuration checks from the security perspective
 
 **S3 Buckets Auditing:**
 
@@ -110,6 +120,7 @@
 * [https://github.com/nahamsec/lazys3](https://github.com/nahamsec/lazys3)
 * [https://github.com/securing/BucketScanner](https://github.com/securing/BucketScanner)
 * [https://digi.ninja/projects/bucket_finder.php](https://digi.ninja/projects/bucket_finder.php)
+* [https://github.com/VirtueSecurity/aws-extender-cli](https://github.com/VirtueSecurity/aws-extender-cli)
 
 **Training:**
 
@@ -130,3 +141,5 @@
 **Others:**
 
 * [https://github.com/nagwww/s3-leaks](https://github.com/nagwww/s3-leaks) - a list of some biggest leaks recorded
+* **Model Risk AWS** [https://magoo.github.io/model-risk-aws/](https://magoo.github.io/model-risk-aws/) - POC about probabilistic risk model for AWS
+* **asecure.cloud** [https://asecure.cloud/](https://asecure.cloud/) - a great place for security resources regarding AWS Security.
